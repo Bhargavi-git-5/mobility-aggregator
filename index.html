@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobility Aggregator Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mobility Aggregator Platform</h1>
+        <p>Discover the best mobility apps in your city.</p>
+    </header>
+
+    <div id="location-info">
+        <label for="city-select">Select a city:</label>
+        <select id="city-select">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="kolkata">Kolkata</option>
+        </select>
+        <p id="location-message">Detecting your location...</p>
+    </div>
+
+    <div id="app-categories">
+        <h2>Popular Mobility Apps</h2>
+        <div id="cabs" class="app-category">
+            <h3>Cabs</h3>
+            <ul></ul>
+        </div>
+        <div id="bikes" class="app-category">
+            <h3>Bikes</h3>
+            <ul></ul>
+        </div>
+        <div id="autos" class="app-category">
+            <h3>Autos</h3>
+            <ul></ul>
+        </div>
+        <div id="porter-services" class="app-category">
+            <h3>Porter Services</h3>
+            <ul></ul>
+        </div>
+    </div>
+
+    <div id="museum-section">
+        <h2>Antique Mobility Museum</h2>
+        <p id="museum-info">Discover antique mobility vehicles from the past.</p>
+        <img id="museum-image" src="images/rapido-bike.jpg" alt="Antique bike" />
+    </div>
+
+    <div id="cta-section">
+        <h2>Stay Updated</h2>
+        <form id="signup-form">
+            <input type="email" id="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

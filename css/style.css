@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+#location-info, #app-categories, #museum-section, #cta-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+select, input[type="email"], button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-category {
+    margin-bottom: 20px;
+}
+
+.app-category ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e4e4e4;
+    border-radius: 8px;
+}
+
+.app-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#cta-section form input, #cta-section form button {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .app-category ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .app-category ul li {
+        flex: 1 0 45%;
+        margin: 10px;
+        text-align: center;
+    }
+
+    #location-info, #museum-section, #cta-section {
+        padding: 10px;
+    }
+}
